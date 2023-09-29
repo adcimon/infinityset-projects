@@ -1,0 +1,6 @@
+﻿# -*- coding: utf-8 -*-
+itemset('<>ipfmode', '!IPFMODE_DBS_VERSION', '17.00')
+call("Lib/font.py")
+call("Lib/light.py")
+call("Lib/mat.py")
+call("Lib/edtree.py")

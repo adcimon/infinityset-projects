@@ -1,0 +1,22 @@
+﻿<objects>
+<EngineVersion>17.0.11-113684:bd053c</EngineVersion>
+<Folder>
+<Name>Journalist</Name>
+<RootIcon>
+<Type>IconFrame</Type>
+<Managed>1</Managed>
+<Name>Journalist</Name>
+<Label></Label>
+<Layout>
+<TextMargin>vector2(4, 4)</TextMargin>
+<Rows>1</Rows>
+<Newline>0</Newline>
+<Cols>6</Cols>
+<Width>0</Width>
+<Margin>vector2(0, 0)</Margin>
+</Layout>
+</RootIcon>
+</Folder>
+<Productions>
+</Productions>
+</objects>
