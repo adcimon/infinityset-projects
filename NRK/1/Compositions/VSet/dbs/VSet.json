@@ -1,0 +1,29 @@
+﻿{
+  "Folder": {
+    "RootIcon": {
+      "Type": "IconFrame", 
+      "Layout": {
+        "TextMargin": [
+          4.0, 
+          4.0
+        ], 
+        "Rows": 1, 
+        "Newline": 0, 
+        "Cols": 6, 
+        "Width": 0, 
+        "Margin": [
+          0.0, 
+          0.0
+        ]
+      }, 
+      "Managed": 1, 
+      "Name": "Journalist", 
+      "Label": ""
+    }, 
+    "Name": "Journalist"
+  }, 
+  "Productions": {
+    "Production": []
+  }, 
+  "EngineVersion": "17.0.11-113684:bd053c"
+}

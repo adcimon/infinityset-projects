@@ -1,0 +1,5 @@
+﻿# -*- coding: utf-8 -*-
+itemset('<>ipfmode', '!IPFMODE_DBS_VERSION', '17.00')
+call("storm.logic/obj.py")
+call("storm.logic/action.py")
+call("storm.logic/edtree.py")

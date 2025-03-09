@@ -1,0 +1,20 @@
+﻿# -*- coding: utf-8 -*-
+itemnew("font", "Default",
+	"FONT_CAPTIVE", {'Exclusive': False, 'Name': False, 'Show': False, 'Edit': False, 'Crypt': False, 'Share': False, 'Effect': False, 'Single': False, 'Clean': True, 'ShowRef': False, 'Delete': False},
+	"FONT_FILE", '.\\..\\..\\_assets\\arial.ttf',
+	"FONT_REGULAR_COLFACE", 'Arial Regular',
+	"FONT_FILE_BOLD", '.\\..\\..\\_assets\\arialbd.ttf',
+	"FONT_BOLD_LOAD", True,
+	"FONT_BOLD_COLFACE", 'Arial Bold',
+	"FONT_FILE_ITALIC", '',
+	"FONT_ITALIC_LOAD", True,
+	"FONT_ITALIC_COLFACE", 'Arial Italic',
+	"FONT_FILE_BOLD_ITALIC", '',
+	"FONT_BOLD_ITALIC_LOAD", True,
+	"FONT_BOLD_ITALIC_COLFACE", 'Arial Bold Italic',
+	"FONT_CHARTABLE", "Ascii",
+	"FONT_AUTOLOAD", True,
+	"FONT_SUBSETS", [],
+	"FONT_FRONT_MAT", "Default",
+	"FONT_CHAR_EMSIZE", 46)
+

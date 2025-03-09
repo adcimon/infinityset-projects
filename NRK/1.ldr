@@ -1,0 +1,48 @@
+﻿# -*- coding: utf-8 -*-
+# Brainstorm InfinitySet eGlobal 6.1.1 07/03/2025 15:39:02
+#+PROJECT_INFO: {'WM': 'False', 'Build': '18.1.1-125645:ee031057'}
+
+itemnew("dbs", "<>NRK",
+	"DBS_TYPE", "Project",
+	"DBS_CAPTIVE", {'Exclusive': False, 'Name': True, 'Show': False, 'Edit': False, 'Crypt': False, 'Share': False, 'Effect': False, 'Single': False, 'Clean': False, 'New': False, 'ShowRef': False, 'Delete': False},
+	"DBS_FILE", '1.ldr',
+	"DBS_SAVE_MODE", "Isolate",
+	"DBS_SAVE_STATIC_EDITORS", False)
+
+itemnew("dbs", "<>NRK/storm.logic",
+	"DBS_CAPTIVE", {'Exclusive': False, 'Name': True, 'Show': False, 'Edit': False, 'Crypt': False, 'Share': False, 'Effect': False, 'Single': False, 'Clean': False, 'New': False, 'ShowRef': False, 'Delete': False},
+	"DBS_FILE", '1\\_logic\\storm.logic.scn',
+	"DBS_APPLY_GLOBAL_ITEMS", True,
+	"DBS_DIM_ENABLED", False,
+	"DBS_FREE_ROOT_SCENE", True,
+	"DBS_SAVE_GLOBAL_ITEMS", False,
+	"DBS_SAVE_STATIC_EDITORS", False,
+	"DBS_EXCLUSIVE", True,
+	"DBS_APPROVED", True,
+	"DBS_CULL_OBJECTS", True)
+
+itemnew("dbs", "<>NRK/Shared",
+	"DBS_CAPTIVE", {'Exclusive': False, 'Name': True, 'Show': False, 'Edit': False, 'Crypt': False, 'Share': True, 'Effect': False, 'Single': False, 'Clean': False, 'New': False, 'ShowRef': False, 'Delete': False},
+	"DBS_FILE", '1\\_lib\\Lib.scn',
+	"DBS_DIM_ENABLED", False,
+	"DBS_GLOBAL_VISIBLE", True,
+	"DBS_SAVE_GLOBAL_ITEMS", False,
+	"DBS_SAVE_STATIC_EDITORS", False,
+	"DBS_CAN_BE_REF_BY_INCLUSIVE", True,
+	"DBS_APPROVED", True,
+	"DBS_CULL_OBJECTS", True)
+
+itemnew("dbs", "<>NRK/VSet",
+	"DBS_FILE", '1\\Compositions\\VSet.scn',
+	"DBS_APPLY_GLOBAL_ITEMS", True,
+	"DBS_DIM_ENABLED", False,
+	"DBS_FREE_ROOT_SCENE", True,
+	"DBS_SAVE_INFO_FILES", True,
+	"DBS_MASTER", True,
+	"DBS_LOAD_LAZY_FORCE", True,
+	"DBS_SAVE_GLOBAL_ITEMS", False,
+	"DBS_SAVE_STATIC_EDITORS", False,
+	"DBS_EXCLUSIVE", True,
+	"DBS_CAN_REF_EXCLUSIVE", True,
+	"DBS_AS_ROOT_ITEM", True)
+
